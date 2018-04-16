@@ -14,8 +14,8 @@ in *lmd-matched*. These files are matched to entries in the Million Song Dataset
 (MSD). To make use of the metadata provided by MSD, we refer users to the
 [demo page](http://colinraffel.com/projects/lmd/) of LMD.
 
-A list of all file ids (and the matched MSD ids) in the matched subset is
-also available ([matched_ids.txt](https://drive.google.com/uc?id=1UjOCRr5VOr8AbcbsOxmUBX1ExKvLvVlu&export=download)).
+[matched_ids.txt](https://drive.google.com/uc?id=1UjOCRr5VOr8AbcbsOxmUBX1ExKvLvVlu&export=download)
+provides a list of all file ids and the matched MSD ids in the matched subset.
 
 ## LPD-cleansed
 
@@ -29,8 +29,8 @@ following rules.
 - Keep only one file that has the highest confidence score in matching for each
   song\*
 
-A list of all file ids (and the matched MSD ids) in the cleansed subset is
-also available ([cleansed_ids.txt](https://drive.google.com/uc?id=1k_BHTAToq0KcUSHN6icb1JJv7gKgHnq7&export=download)).
+[cleansed_ids.txt](https://drive.google.com/uc?id=1k_BHTAToq0KcUSHN6icb1JJv7gKgHnq7&export=download)
+provides a list of all file ids and the matched MSD ids in the cleansed subset.
 
 \* *The matching confidence scores come with the LMD, which is the confidence of
 whether the MIDI file match any entry in the MSD.*
@@ -52,12 +52,10 @@ used to create *lpd-cleansed*.
 
 ## LPD-5
 
-In LPD-5, the tracks are merged into five common categories: **Bass**,
-**Drums**, **Piano**, **Guitar** and **Strings** according to the program
-numbers provided in the MIDI files.
-
-> *Note that instruments out of the five categories are considered as part of
-the strings.*
+In LPD-5, the tracks are merged into five common categories: *Bass*, *Drums*,
+*Piano*, *Guitar* and *Strings* according to the program numbers provided in the
+MIDI files. Note that instruments out of the five categories are considered as
+part of the strings.
 
 - [lpd-5-full](https://drive.google.com/uc?id=1RGrbulxEoYvN7sKngo7CFku6f3l8RsDD&export=download)
   contains 174,154 five-track piano-rolls derived from *lpd-full*.
@@ -76,10 +74,9 @@ In LPD-17, the tracks are merged into drums and sixteen instrument families
 according to the program numbers provided in the MIDI files and the
 specification of
 [General MIDI Level 1](https://www.midi.org/specifications/item/gm-level-1-sound-set).
-The seventeen tracks are **Drums**, **Piano**, **Chromatic Percussion**,
-**Organ**, **Guitar**, **Bass**, **Strings**, **Ensemble**, **Brass**, **Reed**,
-**Pipe**, **Synth Lead**, **Synth Pad**, **Synth Effects**, **Ethnic**,
-**Percussive** and **Sound Effects**.
+The seventeen tracks are *Drums*, *Piano*, *Chromatic Percussion*, *Organ*,
+*Guitar*, *Bass*, *Strings*, *Ensemble*, *Brass*, *Reed*,*Pipe*, *Synth Lead*,
+*Synth Pad*, *Synth Effects*, *Ethnic*, *Percussive* and *Sound Effects*.
 
 - [lpd-17-full](https://drive.google.com/uc?id=1Os88DJb28_z-z8c6-AJXu6FS6XSSjXR-&export=download)
   contains 174,154 seventeen-track piano-rolls derived from *lpd-full*.
