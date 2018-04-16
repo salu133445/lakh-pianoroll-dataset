@@ -1,5 +1,3 @@
-# Lakh Pianoroll Dataset
-
 The Lakh Pianoroll Dataset (LPD) is a collection of 174,154
 [multi-track piano-rolls](data) derived from the MIDI files in
 [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/) (LMD).
