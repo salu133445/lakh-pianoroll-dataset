@@ -59,10 +59,8 @@ part of the strings.
 
 - [lpd-5-full](https://drive.google.com/uc?id=1RGrbulxEoYvN7sKngo7CFku6f3l8RsDD&export=download)
   contains 174,154 five-track piano-rolls derived from *lpd-full*.
-
 - [lpd-5-matched](https://drive.google.com/uc?id=1ms5C_3mWN4BHoE8ulQAaelyR-krFneAq&export=download)
   contains 115,160 five-track piano-rolls derived from *lpd-matched*.
-
 - [lpd-5-cleansed](https://drive.google.com/uc?id=1XJ648WDMjRilbhs4hE3m099ZQIrJLvUB&export=download)
   contains 21,425 five-track piano-rolls derived from *lpd-cleansed*.
 
@@ -80,9 +78,7 @@ The seventeen tracks are *Drums*, *Piano*, *Chromatic Percussion*, *Organ*,
 
 - [lpd-17-full](https://drive.google.com/uc?id=1Os88DJb28_z-z8c6-AJXu6FS6XSSjXR-&export=download)
   contains 174,154 seventeen-track piano-rolls derived from *lpd-full*.
-
 - [lpd-17-matched](https://drive.google.com/uc?id=1vRaZLdyZ92pdrM-bvcNMV-fzwQZlMQn7&export=download)
   contains 115,160 seventeen-track piano-rolls derived from *lpd-matched*.
-
 - [lpd-17-cleansed](https://drive.google.com/uc?id=1bveCxJmTfPvkKXmRlffron_fBdKsfQxW&export=download)
   contains 21,425 seventeen-track piano-rolls derived from *lpd-cleansed*.
