@@ -11,4 +11,6 @@ available [here](https://salu133445.github.io/lakh-pianoroll-dataset/dataset).*
 3. Derive all subsets and versions of LPD, `matched_ids.txt` and
    `cleansed_ids.txt`:
 
-    sh run.sh
+```console
+sh run.sh
+```
