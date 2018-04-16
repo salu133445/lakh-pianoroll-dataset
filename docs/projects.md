@@ -16,12 +16,12 @@ and temporal structure. To our knowledge, our work represents the first approach
 that deal with these issues altogether.
 
 The models are trained with
-[Lakh Pianoroll Dataset](https://salu133445.github.io/musegan/dataset) (LPD), a
-new [multi-track piano-roll](https://salu133445.github.io/musegan/data) dataset,
-in an unsupervised approach. The proposed models are able to generate music
-either from scratch, or by accompanying a track given by user. Specifically, we
-use the model to generate pop song phrases consisting of bass, drums, guitar,
-piano and strings tracks.
+[Lakh Pianoroll Dataset](https://salu133445.github.io/lakh-pianoroll-dataset/)
+(LPD), a new [multi-track piano-roll](https://salu133445.github.io/musegan/data)
+dataset, in an unsupervised approach. The proposed models are able to generate
+music either from scratch, or by accompanying a track given by user.
+Specifically, we use the model to generate pop song phrases consisting of bass,
+drums, guitar, piano and strings tracks.
 
 Listen to some of the best phrases.
 ([more results](https://salu133445.github.io/musegan/results))
