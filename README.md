@@ -9,7 +9,8 @@ available [here](https://salu133445.github.io/lakh-pianoroll-dataset/dataset).*
 
 ## Shell script
 
-- `run.sh`: derive all datasets and id lists
+- `run.sh`: derive all subsets and versions of *LPD* and the matched and
+  cleansed id lists
 
 *Please set the variables `LMD_ROOT` and `LPD_ROOT` and variables in
 `config.py` to proper values before running the script.*
@@ -22,4 +23,4 @@ available [here](https://salu133445.github.io/lakh-pianoroll-dataset/dataset).*
 - `merger_17.py`: used to derive *LPD-17-full*
 - `matcher.py`: used to derive `matched_ids.txt`
 - `cleanser.py`: used to derive `cleansed_ids.txt`
-- `collector.py`: used to derive the matched and cleansed versions
+- `collector.py`: used to collect the matched and cleansed subsets
