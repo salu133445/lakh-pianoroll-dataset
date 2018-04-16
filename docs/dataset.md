@@ -3,15 +3,15 @@
 ## LPD
 
 [lpd-full](https://drive.google.com/uc?id=1md7aRHa7KZQhmzNBaFm0zp_SP-cHJZpP&export=download)
-contains 174,154 multi-track piano-rolls derived from MIDI files in the
+contains 174,154 multi-track piano-rolls derived from the
 [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/) (LMD).
 
 ## LPD-matched
 
 [lpd-matched](https://drive.google.com/uc?id=1UjOCRr5VOr8AbcbsOxmUBX1ExKvLvVlu&export=download)
-contains 115,160 multi-track piano-rolls derived from MIDI files of 30,886 songs
-in *lmd-matched*. These files are matched to entries in the Million Song Dataset
-(MSD). To make use of the metadata provided by MSD, we refer users to the
+contains 115,160 multi-track piano-rolls derived from the matched version of
+LMD. These files are matched to entries in the Million Song Dataset (MSD). To
+make use of the metadata provided by MSD, we refer users to the
 [demo page](http://colinraffel.com/projects/lmd/) of LMD.
 
 [matched_ids.txt](https://drive.google.com/uc?id=1UjOCRr5VOr8AbcbsOxmUBX1ExKvLvVlu&export=download)

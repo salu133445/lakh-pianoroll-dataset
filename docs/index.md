@@ -1,10 +1,11 @@
 The Lakh Pianoroll Dataset (LPD) is a collection of 174,154
-[multi-track piano-rolls](data) derived from the MIDI files in
+[multi-track piano-rolls](data) derived from the
 [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/) (LMD).
 
 ## Getting the dataset
 
-We provide multiple subsets and versions of the dataset. See [here](comparisons) for comparisons. The dataset is available [here](dataset).
+We provide multiple subsets and versions of the dataset. See [here](comparisons)
+for comparisons. The dataset is available [here](dataset).
 
 ## Using LPD
 
@@ -30,10 +31,12 @@ Lakh Pianoroll Dataset is licensed under
 Please cite the following papers if you use Lakh Pianoroll Dataset in a
 published work.
 
-- Hao-Wen Dong, Wen-Yi Hsiao, Li-Chia Yang and Yi-Hsuan Yang, "MuseGAN:
-  Multi-track Sequential Generative Adversarial Networks for Symbolic Music
-  Generation and Accompaniment," in *AAAI Conference on Artificial Intelligence*
-  (AAAI), 2018.
+- Hao-Wen Dong, Wen-Yi Hsiao, Li-Chia Yang and Yi-Hsuan Yang,
+  "**MuseGAN: Multi-track Sequential Generative Adversarial Networks for
+  Symbolic Music Generation and Accompaniment**,"
+  in *AAAI Conference on Artificial Intelligence* (AAAI), 2018.
 
-- Colin Raffel, "Learning-Based Methods for Comparing Sequences, with
-  Applications to Audio-to-MIDI Alignment and Matching," *PhD Thesis*, 2016.
+- Colin Raffel,
+  "**Learning-Based Methods for Comparing Sequences, with Applications to
+  Audio-to-MIDI Alignment and Matching**,"
+  *PhD Thesis*, 2016.

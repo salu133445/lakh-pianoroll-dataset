@@ -11,8 +11,8 @@ available [here](https://salu133445.github.io/lakh-pianoroll-dataset/dataset).*
 
 - `run.sh`: derive all datasets and id lists
 
-*Please set the variables `LMD_ROOT` and `LPD_ROOT` and variables in*
-*`config.py` to proper values before running the script.*
+*Please set the variables `LMD_ROOT` and `LPD_ROOT` and variables in
+`config.py` to proper values before running the script.*
 
 ## Python code
 
