@@ -22,7 +22,7 @@ minimal-length (of one time step) pause is added between two consecutive
 note.
 
 <img src="figs/pianoroll-example.png" alt="pianoroll-example" style="max-height:200px; display:block; margin:auto">
-<p class="caption" align="center">Example piano-roll</p>
+<p class="caption">Example piano-roll</p>
 
 ## Multi-track Piano-roll
 
@@ -33,7 +33,7 @@ set of *M* piano-rolls. For instance, a bar in 4/4 time with *M* tracks can be
 represented as a 96 x 128 x *M* tensor.
 
 <img src="figs/pianoroll-example-5tracks.png" alt="pianoroll-example-5tracks" style="max-height:400px; display:block; margin:auto">
-<p class="caption" align="center">Example five-track piano-rolls</p>
+<p class="caption">Example five-track piano-rolls</p>
 
 *The above piano-roll visualizations are produced using
 [Pypianoroll](https://salu133445.github.io/pypianoroll/).*
