@@ -76,7 +76,7 @@ according to the program numbers provided in the MIDI files and the
 specification of
 [General MIDI Level 1](https://www.midi.org/specifications/item/gm-level-1-sound-set).
 The seventeen tracks are *Drums*, *Piano*, *Chromatic Percussion*, *Organ*,
-*Guitar*, *Bass*, *Strings*, *Ensemble*, *Brass*, *Reed*,*Pipe*, *Synth Lead*,
+*Guitar*, *Bass*, *Strings*, *Ensemble*, *Brass*, *Reed*, *Pipe*, *Synth Lead*,
 *Synth Pad*, *Synth Effects*, *Ethnic*, *Percussive* and *Sound Effects*.
 
 - [lpd-17-full](https://drive.google.com/uc?id=1Os88DJb28_z-z8c6-AJXu6FS6XSSjXR-&export=download)
