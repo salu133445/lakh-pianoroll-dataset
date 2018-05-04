@@ -52,10 +52,13 @@ used to create *lpd-cleansed*.
 
 ## LPD-5
 
-In LPD-5, the tracks are merged into five common categories: *Bass*, *Drums*,
-*Piano*, *Guitar* and *Strings* according to the program numbers provided in the
-MIDI files. Note that instruments out of the five categories are considered as
-part of the strings.
+In LPD-5, the tracks are merged into five common categories: *Drums*, *Piano*,
+*Guitar*, *Bass* and *Strings* according to the program numbers provided in the
+MIDI files.
+
+> Note that instruments out of the five categories are considered as part of the
+strings except those in the *Percussive*, *Sound effects* and *Synth Effects*
+families (see [here](https://www.midi.org/specifications/item/gm-level-1-sound-set)).
 
 - [lpd-5-full](https://drive.google.com/uc?id=1RGrbulxEoYvN7sKngo7CFku6f3l8RsDD&export=download)
   contains 174,154 five-track piano-rolls derived from *lpd-full*.
