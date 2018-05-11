@@ -6,7 +6,7 @@
 |:--------:|:-------:|:--------------:|:------------------:|
 | full     | 174,154 |       X        |         X          |
 | matched  | 115,160 |       O        |         X          |
-| cleansed | 24,474  |       O        |         O          |
+| cleansed | 21,425  |       O        |         O          |
 
 ## Comparison of different versions
 
