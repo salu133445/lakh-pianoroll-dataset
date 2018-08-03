@@ -37,7 +37,7 @@ whether the MIDI file match any entry in the MSD.*
 
 ## MIDI Info Dictionary
 
-[midis.json](https://drive.google.com/uc?id=18kAwcriMi46s4TG0SQudkL-iBW6EGlKi&export=download)
+[midi_info.json](https://drive.google.com/uc?id=18kAwcriMi46s4TG0SQudkL-iBW6EGlKi&export=download)
 contains useful information lost during the conversion from LMD to LPD. It was
 used to create *lpd-cleansed*.
 
@@ -47,6 +47,12 @@ used to create *lpd-cleansed*.
   changes within a song)
 - `constant_tempo`: the *only* tempo (in bpm) used (`None` if it changes within
   a song)
+  
+[midi_info_v2.json](https://drive.google.com/uc?id=1kVOdePb_6GolGQwpMD5WPJB98Xn_H6cI&export=download)
+has the same values for `first_beat_time`, `num_time_signature_change` and
+`constant_time_signature`. However, `constant_tempo` is now a boolean value that
+indicates whether the tempo is constant throughout the song. There is an
+additional key `tempo` that stores the initial tempo value (in bpm).
 
 ---
 
