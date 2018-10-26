@@ -9,13 +9,11 @@ for comparisons. The dataset is available [here](dataset).
 
 ## Using LPD
 
-The multitrack pianorolls in LPD are stored in a special format for
-efficient I/O and to save space. We recommend to load the data with
-[Pypianoroll](https://salu133445.github.io/pypianoroll/)\*. See
-[here](https://salu133445.github.io/pypianoroll/save_load.html) to learn how
-the data is stored and how to load the data properly.
-
-\* _The dataset is created using Pypianoroll (v0.3.0)._
+The multitrack pianorolls in LPD are stored in a special format for efficient
+I/O and to save space. We recommend to load the data with
+[Pypianoroll](https://salu133445.github.io/pypianoroll/) (The dataset is created
+using Pypianoroll v0.3.0.). See [here](https://salu133445.github.io/pypianoroll/save_load.html)
+to learn how the data is stored and how to load the data properly.
 
 ## License
 
@@ -34,7 +32,8 @@ published work.
 - Hao-Wen Dong, Wen-Yi Hsiao, Li-Chia Yang, and Yi-Hsuan Yang,
   "__MuseGAN: Multi-track Sequential Generative Adversarial Networks for
   Symbolic Music Generation and Accompaniment__,"
-  in _AAAI Conference on Artificial Intelligence_ (AAAI), 2018.
+  in _Proceedings of the 32nd AAAI Conference on Artificial Intelligence_
+  (AAAI), 2018.
 
 - Colin Raffel,
   "__Learning-Based Methods for Comparing Sequences, with Applications to
