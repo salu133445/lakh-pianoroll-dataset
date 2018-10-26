@@ -4,8 +4,8 @@ The Lakh Pianoroll Dataset (LPD) is a collection of 174,154
 
 ## Getting the dataset
 
-We provide multiple subsets and versions of the dataset. See [here](comparisons)
-for comparisons. The dataset is available [here](dataset).
+We provide multiple subsets and versions of the dataset (see
+[here](comparisons)). The dataset is available [here](dataset).
 
 ## Using LPD
 
