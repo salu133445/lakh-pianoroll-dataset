@@ -1,6 +1,6 @@
 #!/bin/bash
-#
 # Derive Lakh Pianoroll Dataset (LPD) from Lakh MIDI Dataset (LMD)
+# Usage: ./run.sh
 
 LMD_ROOT=/home/salu133445/NAS/salu133445/lmd/
 LPD_ROOT=/home/salu133445/NAS/salu133445/lpd/
