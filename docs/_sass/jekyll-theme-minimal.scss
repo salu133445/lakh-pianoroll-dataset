@@ -7,6 +7,7 @@ body {
   font: 16px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#333;
   font-weight:400;
+  margin-left: calc(100vw - 100%);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -78,7 +79,8 @@ a {
 
 a:hover, a:focus {
   color:#069;
-  font-weight: bold;
+  // font-weight: bold;
+  text-shadow: 0 0.015em #069,0 -0.015em #069,0.01em 0 #069,-0.01em 0 #069;
 }
 
 a small {
@@ -190,7 +192,7 @@ header ul a strong {
 }
 
 section {
-  width:750px;
+  width:740px;
   float:right;
 }
 
@@ -206,7 +208,7 @@ hr {
 }
 
 footer {
-  width:750px;
+  width:740px;
   float:right;
   padding-bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -219,7 +221,7 @@ footer {
   }
 
   header {
-    width:250px;
+    width:260px;
   }
 
   section, footer {
@@ -281,6 +283,10 @@ footer {
 
   header ul, header p.view {
     position:static;
+  }
+
+  .header-info {
+    display: none;
   }
 
   pre, code {
