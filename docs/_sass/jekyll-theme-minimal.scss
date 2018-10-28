@@ -48,8 +48,12 @@ footer {
   margin: 0 0 5px;
 }
 
-.subpage-links {
+.main-menu .subpage-links {
   margin: 0 0 20px;
+}
+
+.main-menu .link-button:hover, .main-menu .link-button:focus {
+  background: #eee;
 }
 
 // Video player
@@ -244,13 +248,16 @@ footer hr {
   }
 
   // Menu
-  .menu-toggle {
+  .menu-toggle, .main-menu {
     position: absolute;
-    right: 50px;
-    top: 50px;
+    right: 55px;
+    top: 55px;
+  }
+
+  .menu-toggle {
     z-index: 998;
     display: block;
-    padding: 10px 15px;
+    padding: 5px 10px;
     color: #333;
     cursor: pointer;
   }
@@ -260,34 +267,30 @@ footer hr {
   }
 
   .main-menu {
-    position: absolute;
-    right: 50px;
-    top: 50px;
     z-index: 999;
     display: none;
     min-width: 120px;
-    padding: 5px;
     background: #eee;
   }
 
-  .main-menu .icon-link {
+  .main-menu .link-button {
     padding: 5px 10px;
   }
 
-  .main-menu .icon-link:hover, .main-menu .icon-link:focus, .main-menu-close:hover {
+  .main-menu .link-button:hover, .main-menu .link-button:focus, .main-menu-close:hover {
     background: #ddd;
   }
 
   .main-menu-close {
     display: block;
     position: absolute;
-    right: 5px;
-    top: 5px;
+    right: 0;
+    top: 0;
     padding: 5px 10px;
     cursor: pointer;
   }
 
-  .subpage-links {
+  .main-menu .subpage-links {
     margin: 0;
   }
 
@@ -311,7 +314,15 @@ footer hr {
   }
 
   .author-info {
+    font-size: small;
+  }
+
+  .author-info br {
     display: none;
+  }
+
+  .author-affiliations {
+    margin: 0 0 5px;
   }
 
   hr {
@@ -358,20 +369,37 @@ footer hr {
   }
 
   .menu-toggle, .main-menu {
-    right: 15px;
-    top: 15px;
+    right: 20px;
+    top: 20px;
   }
 }
 
 @media print, screen and (max-height: 600px) {
-  .author-info {
+  .author-info br {
     display: none;
+  }
+
+  .main-menu .subpage-links {
+    margin: 0;
   }
 }
 
 @media print, screen and (max-height: 480px) {
-  .subpage-links {
-    margin: 0;
+  body {
+    padding: 15px;
+  }
+
+  footer {
+    padding-bottom: 15px;
+  }
+
+  .menu-toggle, .main-menu {
+    right: 20px;
+    top: 20px;
+  }
+
+  .author-info {
+    font-size: small;
   }
 }
 
