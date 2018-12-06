@@ -32,6 +32,9 @@ following rules.
 [cleansed_ids.txt](https://drive.google.com/uc?id=1k_BHTAToq0KcUSHN6icb1JJv7gKgHnq7&export=download)
 provides a list of all file ids and the matched MSD ids in the cleansed subset.
 
+_Note that _lpd-cleansed_ contains songs from ALL genres, which is different
+from the description on the paper._
+
 \* _The matching confidence scores come with the LMD, which is the confidence of
 whether the MIDI file match any entry in the MSD._
 
