@@ -1,12 +1,12 @@
-"""Collect piano-rolls matched to Million Song Dataset (MSD) and write the
-midi_md5 of matched files to a list
+"""This script writes the IDs of songs that have been matched to Million Song
+Dataset (MSD) to a file.
 """
 import argparse
 import os.path
 import json
 
 def parse_args():
-    """Return parsed command line arguments"""
+    """Return the parsed command line arguments."""
     parser = argparse.ArgumentParser()
     parser.add_argument('filepath', help="path to save the resulting list")
     parser.add_argument('src', help="root path to the source dataset")
@@ -16,7 +16,7 @@ def parse_args():
     return args.filepath, args.src, args.match_scores_path
 
 def main():
-    """Main function"""
+    """Main function."""
     filepath, src, match_scores_path = parse_args()
 
     with open(match_scores_path) as f:
@@ -29,7 +29,7 @@ def main():
                 if os.path.isfile(npz_path):
                     f.write("{}    {}\n".format(midi_md5, msd_id))
 
-    print("Matched id list successfully saved")
+    print("Matched ID list successfully saved.")
 
 if __name__ == "__main__":
     main()

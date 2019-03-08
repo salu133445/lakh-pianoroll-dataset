@@ -1,7 +1,7 @@
-"""Cleanse a dataset and write the midi_md5 of qualified files to a list
+"""This script cleanses a dataset and write the qualified IDs to a file.
 
 Cleansing Rules
-===============
+---------------
 
 - Remove those having more than one time signature change events
 - Remove those having a time signature other than 4/4
@@ -16,19 +16,19 @@ import json
 from config import CONFIG
 
 def parse_args():
-    """Return parsed command line arguments"""
+    """Return the parsed command line arguments."""
     parser = argparse.ArgumentParser()
     parser.add_argument('filepath', help="path to save the resulting list")
     parser.add_argument('src', help="root path to the source dataset")
     parser.add_argument('match_scores_path',
                         help="path to the match scores file")
-    parser.add_argument('midi_info_path', help="path to the midi info file")
+    parser.add_argument('midi_info_path', help="path to the MIDI info file")
 
     args = parser.parse_args()
     return args.filepath, args.src, args.match_scores_path, args.midi_info_path
 
 def midi_filter(midi_info):
-    """Return True for qualified midi files and False for unwanted ones"""
+    """Return True for qualified MIDI files and False for unwanted ones."""
     if midi_info['first_beat_time'] > 0.0:
         return False
     if midi_info['constant_time_signature'] not in CONFIG['time_signatures']:
@@ -36,7 +36,7 @@ def midi_filter(midi_info):
     return True
 
 def main():
-    """Main function"""
+    """Main function."""
     filepath, src, match_scores_path, midi_info_path = parse_args()
     with open(match_scores_path) as f:
         match_score_dict = json.load(f)
@@ -54,7 +54,7 @@ def main():
                         f.write("{}    {}\n".format(midi_md5, msd_id))
                     break
 
-    print("Cleansed id list successfully saved")
+    print("Cleansed ID list successfully saved.")
 
 if __name__ == "__main__":
     main()

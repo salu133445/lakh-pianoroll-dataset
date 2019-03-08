@@ -1,4 +1,4 @@
-"""Convert a collection of MIDI files to multi-track piano-rolls
+"""This script converts a collection of MIDI files to multitrack pianorolls.
 """
 import os
 import json
@@ -6,7 +6,7 @@ import argparse
 import warnings
 import pretty_midi
 from pypianoroll import Multitrack
-from utils.utils import make_sure_path_exists, change_prefix, findall_endswith
+from utils import make_sure_path_exists, change_prefix, findall_endswith
 from config import CONFIG
 if CONFIG['multicore'] > 1:
     import joblib
@@ -14,7 +14,7 @@ if CONFIG['multicore'] > 1:
 warnings.filterwarnings('ignore')
 
 def parse_args():
-    """Return parsed command line arguments"""
+    """Return the parsed command line arguments."""
     parser = argparse.ArgumentParser()
     parser.add_argument('src', help="root path to the source dataset")
     parser.add_argument('dst', help="root path to the destination dataset")
@@ -24,7 +24,7 @@ def parse_args():
     return args.src, args.dst, args.midi_info_path
 
 def get_midi_info(pm):
-    """Return useful information from a pretty_midi.PrettyMIDI instance"""
+    """Return useful information from a MIDI object."""
     if pm.time_signature_changes:
         pm.time_signature_changes.sort(key=lambda x: x.time)
         first_beat_time = pm.time_signature_changes[0].time
@@ -72,7 +72,7 @@ def converter(filepath, src, dst):
         return None
 
 def main():
-    """Main function"""
+    """Main function."""
     src, dst, midi_info_path = parse_args()
     make_sure_path_exists(dst)
     midi_info = {}

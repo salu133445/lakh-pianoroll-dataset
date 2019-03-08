@@ -1,9 +1,9 @@
-"""Merge a collection of multi-track piano-rolls to seventeen-track piano-rolls
+"""This script merges multitrack pianorolls to seventeen-track pianorolls.
 """
 import os.path
 import argparse
 from pypianoroll import Multitrack, Track
-from utils.utils import make_sure_path_exists, change_prefix, findall_endswith
+from utils import make_sure_path_exists, change_prefix, findall_endswith
 from config import CONFIG
 if CONFIG['multicore'] > 1:
     import joblib
@@ -29,7 +29,7 @@ TRACK_INFO = (
 )
 
 def parse_args():
-    """Return parsed command line arguments"""
+    """Return the parsed command line arguments."""
     parser = argparse.ArgumentParser()
     parser.add_argument('src', help="root path to the source dataset")
     parser.add_argument('dst', help="root path to the destination dataset")
@@ -37,8 +37,8 @@ def parse_args():
     return args.src, args.dst
 
 def get_merged(multitrack):
-    """Return a `pypianoroll.Multitrack` instance with piano-rolls merged to
-    sixteen instrument families"""
+    """Merge the multitrack pianorolls into sixteen instrument families and
+    return the resulting multitrack pianoroll object."""
     track_lists_to_merge = [[] for _ in range(17)]
     for idx, track in enumerate(multitrack.tracks):
         if track.is_drum:
@@ -59,16 +59,18 @@ def get_merged(multitrack):
                       multitrack.beat_resolution, multitrack.name)
 
 def merger(filepath, src, dst):
-    """Load and merge a multi-track piano-roll and save to the given path"""
+    """Load and merge a multitrack pianoroll and save to the given path."""
+    # Load and merge the multitrack pianoroll
     multitrack = Multitrack(filepath)
     merged = get_merged(multitrack)
 
+    # Save the merged multitrack pianoroll
     result_path = change_prefix(filepath, src, dst)
     make_sure_path_exists(os.path.dirname(result_path))
     merged.save(result_path)
 
 def main():
-    """Main function"""
+    """Main function."""
     src, dst = parse_args()
     make_sure_path_exists(dst)
 

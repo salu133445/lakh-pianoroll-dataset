@@ -1,11 +1,10 @@
-"""Utility functions
+"""This file defines some handy utility functions.
 """
 import os
 import errno
 
 def make_sure_path_exists(path):
-    """Create all intermediate-level directories if the given path does not
-    exist"""
+    """Create intermidate directories if the path does not exist."""
     try:
         os.makedirs(path)
     except OSError as exception:
@@ -18,11 +17,11 @@ def msd_id_to_dirs(msd_id):
     return os.path.join(msd_id[2], msd_id[3], msd_id[4], msd_id)
 
 def change_prefix(path, src, dst):
-    """Return the path with its prefix changed from `src` to `dst`"""
+    """Return the path with its prefix changed from `src` to `dst`."""
     return os.path.join(dst, os.path.relpath(path, src))
 
 def findall_endswith(postfix, root):
-    """Traverse `root` recursively and yield all files ending with `postfix`"""
+    """Traverse `root` recursively and yield all files ending with `postfix`."""
     for dirpath, _, filenames in os.walk(root):
         for filename in filenames:
             if filename.endswith(postfix):
