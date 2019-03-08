@@ -1,4 +1,4 @@
-"""This file creates the ID lists for different labels in the Last.fm Dataset
+"""This file derives the ID lists for different labels in the Last.fm Dataset
 (see https://labrosa.ee.columbia.edu/millionsong/lastfm)."""
 import os.path
 import argparse

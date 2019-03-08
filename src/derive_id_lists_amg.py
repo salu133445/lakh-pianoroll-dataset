@@ -1,5 +1,5 @@
-"""This file creates the ID lists for the MSD Allmusic Top Genre Dataset
-(TopMAGD) provided in the Million Song Dataset Benchmarks (
+"""This file derives the ID lists for different labels in the MSD AllMusic Top
+Genre Dataset (TopMAGD) provided in the Million Song Dataset Benchmarks (
 see http://www.ifs.tuwien.ac.at/mir/msd/)."""
 import os.path
 import argparse

@@ -1,4 +1,4 @@
-"""This file creates the ID lists for different labels in the Tagtraum genre
+"""This file derives the ID lists for different labels in the Tagtraum genre
 annotations (see http://www.tagtraum.com/msd_genre_datasets.html)."""
 import os.path
 import argparse
