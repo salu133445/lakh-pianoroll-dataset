@@ -1,5 +1,6 @@
 """This file derives the ID lists for different labels in the Last.fm Dataset
 (see https://labrosa.ee.columbia.edu/millionsong/lastfm)."""
+import json
 import os.path
 import argparse
 from utils import make_sure_path_exists, msd_id_to_dirs
@@ -44,7 +45,8 @@ def main():
             filepath = os.path.join(
                 src, dataset, msd_id_to_dirs(msd_id) + '.json')
             if os.path.exists(filepath):
-                data = load_json(filepath)
+                with open(filepath) as f:
+                    data = json.load(f)
                 # Loop over all the tags annotated to the song
                 for tag_freq_pair in data['tags']:
                     if tag_freq_pair[0] in TAGS:
