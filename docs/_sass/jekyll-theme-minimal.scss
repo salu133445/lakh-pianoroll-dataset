@@ -62,9 +62,9 @@ footer {
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
   width: 100%;
   max-width: 600px;
-  margin: 0 0 20px;
 }
 
 .video-inner-container {
@@ -374,14 +374,6 @@ footer hr {
 
   footer {
     padding-bottom: 15px;
-  }
-
-  header ul {
-    width: 99%;
-  }
-
-  header li, header ul li + li + li {
-    width: 33%;
   }
 
   .menu-toggle, .main-menu {

@@ -21,7 +21,8 @@ provides a list of all file ids and the matched MSD ids in the matched subset.
 
 [lpd-cleansed](https://drive.google.com/uc?id=1akX1l_pHq83IWBWjbSAdrnykyov30ZRb&export=download)
 contains 21,425 multitrack pianorolls collected from _lpd-matched_ with the
-following rules.
+following rules. Note that _lpd-cleansed_ contains songs from ALL genres, which
+is different from the description on the paper.
 
 - Remove those having more than one time signature change events
 - Remove those having a time signature other than 4/4
@@ -31,6 +32,8 @@ following rules.
 
 [cleansed_ids.txt](https://drive.google.com/uc?id=1k_BHTAToq0KcUSHN6icb1JJv7gKgHnq7&export=download)
 provides a list of all file ids and the matched MSD ids in the cleansed subset.
+
+
 
 \* _The matching confidence scores come with the LMD, which is the confidence of
 whether the MIDI file match any entry in the MSD._
