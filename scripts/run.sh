@@ -1,5 +1,6 @@
 #!/bin/bash
-# Derive Lakh Pianoroll Dataset (LPD) from Lakh MIDI Dataset (LMD).
+# This script derives the Lakh Pianoroll Dataset (LPD) from the Lakh MIDI
+# Dataset (LMD).
 # Usage: run.sh
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null && pwd )"
 SRC_DIR="$DIR/../src/"

@@ -1,5 +1,5 @@
 #!/bin/bash
-# This scripts download the labels for Million Song Dataset (MSD) from Million
+# This script downloads the labels for Million Song Dataset (MSD) from Million
 # Song Dataset Benchmarks (see http://www.ifs.tuwien.ac.at/mir/msd/).
 # Usage: download_amg.sh
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" > /dev/null && pwd )"
