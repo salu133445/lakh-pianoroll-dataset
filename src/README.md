@@ -13,12 +13,14 @@
 - `collector.py`: create different subsets of _LPD-full_ with the matched and
   the cleansed ID lists
 
-## Derive the ID lists for different labels
+## Derive the labels for the LPD
 
 - `derive_id_lists_lastfm.py`: derive the ID lists for different labels in the
   Last.fm Dataset
 - `derive_id_lists_amg.py`: derive the ID lists for different labels in the MSD
   AllMusic Top Genre Dataset (TopMAGD) provided in the Million Song Dataset
   Benchmarks
+- `derive_labels_amg.py`: derive the labels in the MSD AllMusic Style Dataset
+  (MASD) provided in the Million Song Dataset Benchmarks
 - `derive_id_lists_tagtraum.py`: derive the ID lists for different labels in
   the Tagtraum genre annotations

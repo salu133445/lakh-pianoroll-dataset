@@ -1,7 +1,7 @@
 # Source Code for Deriving Lakh Pianoroll Dataset (LPD)
 
-> If you want to use LPD directly, the one derived with the default settings is
-available [here](https://salu133445.github.io/lakh-pianoroll-dataset/dataset).
+> The derived dataset using the default settings is available
+[here](https://salu133445.github.io/lakh-pianoroll-dataset/dataset).
 
 1. Download Lakh MIDI Dataset (LMD) with the following script.
 
@@ -19,7 +19,9 @@ available [here](https://salu133445.github.io/lakh-pianoroll-dataset/dataset).
    ./scripts/run.sh
    ```
 
-## Derive the ID lists for different labels
+## Derive the labels for the LPD
+
+> The derived labels can be found at `data/labels.tar.gz`.
 
 1. Download the labels with the following script.
 
@@ -27,8 +29,8 @@ available [here](https://salu133445.github.io/lakh-pianoroll-dataset/dataset).
    ./scripts/download_labels.sh
    ```
 
-2. Derive the ID lists with the following script.
+2. Derive the labels with the following script.
 
    ```sh
-   ./scripts/derive_id_lists.sh
+   ./scripts/derive_labels.sh
    ```
