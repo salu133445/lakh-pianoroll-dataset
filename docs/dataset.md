@@ -15,7 +15,7 @@ use of the metadata provided by MSD, we refer users to the
 [demo page](http://colinraffel.com/projects/lmd/) of LMD.
 
 [matched_ids.txt](https://drive.google.com/uc?id=1UjOCRr5VOr8AbcbsOxmUBX1ExKvLvVlu&export=download)
-provides a list of all file ids and the matched MSD ids in the matched subset.
+provides a list of all file IDs and the matched MSD IDs in the matched subset.
 
 ## LPD-cleansed
 
@@ -31,9 +31,7 @@ is different from the description on the paper.
   song\*
 
 [cleansed_ids.txt](https://drive.google.com/uc?id=1k_BHTAToq0KcUSHN6icb1JJv7gKgHnq7&export=download)
-provides a list of all file ids and the matched MSD ids in the cleansed subset.
-
-
+provides a list of all file IDs and the matched MSD IDs in the cleansed subset.
 
 \* _The matching confidence scores come with the LMD, which is the confidence of
 whether the MIDI file match any entry in the MSD._
