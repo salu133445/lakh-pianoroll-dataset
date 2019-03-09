@@ -3,9 +3,8 @@
 We derived the labels for the Lakh Pianoroll Dataset (LPD) from three different
 sources: the Last&#46;fm Dataset, the Million Song Dataset (MSD) Benchmarks and
 the Tagtraum genre annotations. Note that these labels are derived based on the
-mapping between the Lakh MIDI Dataset (LMD) and the MSD (see
-[here](https://colinraffel.com/projects/lmd/)), which may contain incorrect
-pairs.
+mapping between the Lakh MIDI Dataset (LMD) and the MSD, which may contain
+incorrect pairs (see [here](https://colinraffel.com/projects/lmd/)).
 
 > Please refer to the original sources for the license information.
 
