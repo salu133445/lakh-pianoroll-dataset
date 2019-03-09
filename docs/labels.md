@@ -1,15 +1,19 @@
 # Labels
 
-We have derived the labels for the Lakh Pianoroll Dataset (LPD) from three
-different sources: the Last&#46;fm Dataset, the Million Song Dataset Benchmarks and
-the Tagtraum genre annotations.
+We derived the labels for the Lakh Pianoroll Dataset (LPD) from three different
+sources: the Last&#46;fm Dataset, the Million Song Dataset (MSD) Benchmarks and
+the Tagtraum genre annotations. Note that these labels are derived based on the
+mapping between the Lakh MIDI Dataset (LMD) and the MSD (see
+[here](https://colinraffel.com/projects/lmd/)), which may contain incorrect
+pairs.
 
 > Please refer to the original sources for the license information.
 
 ## Last&#46;fm Dataset
 
 - [id_lists_lastfm.tar.gz](https://drive.google.com/uc?id=1mkmQjOifUHISszMsVTDHNuxd7H8Fo5Cs&export=download):
-  we derived the ID lists for most common labels in the Last&#46;fm Dataset (see [here](https://labrosa.ee.columbia.edu/millionsong/lastfm)).
+  we derived the ID lists for most common labels in the Last&#46;fm Dataset (see 
+  [here](https://labrosa.ee.columbia.edu/millionsong/lastfm)).
 
 ## Million Song Dataset Benchmarks
 
