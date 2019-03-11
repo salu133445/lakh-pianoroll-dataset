@@ -16,7 +16,7 @@
    `cleansed_ids.txt` with the following script.
 
    ```sh
-   ./scripts/run.sh
+   ./scripts/derive_lpd.sh
    ```
 
 ## Derive the labels for the LPD
@@ -34,3 +34,17 @@
    ```sh
    ./scripts/derive_labels.sh
    ```
+
+## Synthesize audio files for the LPD
+
+1. Install [GNU Parallel](https://www.gnu.org/software/parallel/) to run the
+   synthesizer in parallel mode.
+2. Synthesize audio files from multitrack pianorolls with the following script.
+
+   ```sh
+   ./scripts/batch_synthesize.sh ./data/lpd/lpd/lpd_cleansed/ \
+     ./data/synthesized/lpd_cleansed 20
+   ```
+
+   (The above command will synthesize all the multitrack pianorolls in
+   the _LPD-cleansed_ subset with 20 parallel jobs.)

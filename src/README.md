@@ -24,3 +24,7 @@
   (MASD) provided in the Million Song Dataset Benchmarks
 - `derive_id_lists_tagtraum.py`: derive the ID lists for different labels in
   the Tagtraum genre annotations
+
+## Synthesize audio files for the LPD
+
+- `npz_to_audio.py`: synthesize a multitrack pianoroll (.npz) to a .wav file
