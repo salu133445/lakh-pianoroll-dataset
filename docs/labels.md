@@ -12,7 +12,7 @@ incorrect pairs (see [here](https://colinraffel.com/projects/lmd/)).
 
 - [id_lists_lastfm.tar.gz](https://drive.google.com/uc?id=1mkmQjOifUHISszMsVTDHNuxd7H8Fo5Cs&export=download):
   we derived the ID lists for most common labels in the Last&#46;fm Dataset (see 
-  [here](https://labrosa.ee.columbia.edu/millionsong/lastfm)).
+  [here](http://millionsongdataset.com/lastfm/)).
 
 ## Million Song Dataset Benchmarks
 
