@@ -39,3 +39,8 @@ published work.
   "__Learning-Based Methods for Comparing Sequences, with Applications to
   Audio-to-MIDI Alignment and Matching__,"
   _PhD Thesis_, 2016.
+
+## Related projects
+
+- [MuseGAN](https://salu133445.github.io/musegan/)
+- [LeadSheetGAN](https://liuhaumin.github.io/LeadsheetArrangement/)
