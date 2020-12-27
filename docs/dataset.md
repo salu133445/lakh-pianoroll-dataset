@@ -2,24 +2,24 @@
 
 ## LPD
 
-[lpd-full](https://drive.google.com/uc?export=download&id=19FJwmNxWUmR3UutCDhZtbKVnEBVHU-2q)
+[lpd-full](https://drive.google.com/uc?id=19FJwmNxWUmR3UutCDhZtbKVnEBVHU-2q)
 contains 174,154 multitrack pianorolls derived from the
 [Lakh MIDI Dataset](http://colinraffel.com/projects/lmd/) (LMD).
 
 ## LPD-matched
 
-[lpd-matched](https://drive.google.com/uc?export=download&id=1ULUOJKcrgbTXc0QOyPQkjVqVx4nQilTK)
+[lpd-matched](https://drive.google.com/uc?id=1ULUOJKcrgbTXc0QOyPQkjVqVx4nQilTK)
 contains 115,160 multitrack pianorolls derived from the matched version of LMD.
 These files are matched to entries in the Million Song Dataset (MSD). To make
 use of the metadata provided by MSD, we refer users to the
 [demo page](http://colinraffel.com/projects/lmd/) of LMD.
 
-[matched_ids.txt](https://drive.google.com/uc?export=download&id=1yTeqvZ1HM1PGVm_jHPU3Rxb8lh3ctzn8)
+[matched_ids.txt](https://drive.google.com/uc?id=1yTeqvZ1HM1PGVm_jHPU3Rxb8lh3ctzn8)
 provides a list of all file IDs and the matched MSD IDs in the matched subset.
 
 ## LPD-cleansed
 
-[lpd-cleansed](https://drive.google.com/uc?export=download&id=11rxrGaQbfTW-WC0k2GlR9YDAT-UxIb4O)
+[lpd-cleansed](https://drive.google.com/uc?id=11rxrGaQbfTW-WC0k2GlR9YDAT-UxIb4O)
 contains 21,425 multitrack pianorolls collected from _lpd-matched_ with the
 following rules. Note that _lpd-cleansed_ contains songs from ALL genres, which
 is different from the description on the paper.
@@ -30,7 +30,7 @@ is different from the description on the paper.
 - Keep only one file that has the highest confidence score in matching for each
   song\*
 
-[cleansed_ids.txt](https://drive.google.com/uc?export=download&id=1EmCZQvc5Yqtz4y8TO5Ms_JpzDT6WRPEO)
+[cleansed_ids.txt](https://drive.google.com/uc?id=1EmCZQvc5Yqtz4y8TO5Ms_JpzDT6WRPEO)
 provides a list of all file IDs and the matched MSD IDs in the cleansed subset.
 
 \* _The matching confidence scores come with the LMD, which is the confidence of
@@ -38,7 +38,7 @@ whether the MIDI file match any entry in the MSD._
 
 ## MIDI Info Dictionary
 
-[midi_info.json](https://drive.google.com/uc?export=download&id=1TxyTCN-yTZ_AlJUHchGIHdAM-XkbJBwf)
+[midi_info.json](https://drive.google.com/uc?id=1TxyTCN-yTZ_AlJUHchGIHdAM-XkbJBwf)
 contains useful information lost during the conversion from LMD to LPD. It was
 used to create _lpd-cleansed_.
 
@@ -49,7 +49,7 @@ used to create _lpd-cleansed_.
 - `constant_tempo`: the _only_ tempo (in bpm) used (`None` if it changes within
   a song)
 
-[midi_info_v2.json](https://drive.google.com/uc?export=download&id=1Ly5g6uis55_y-s017OPHLDsLdp4H4mU_)
+[midi_info_v2.json](https://drive.google.com/uc?id=1Ly5g6uis55_y-s017OPHLDsLdp4H4mU_)
 has the same values for `first_beat_time`, `num_time_signature_change` and
 `constant_time_signature`. However, `constant_tempo` is now a boolean value that
 indicates whether the tempo is constant throughout the song. There is an
@@ -67,11 +67,11 @@ MIDI files.
 strings except those in the _Percussive_, _Sound effects_ and _Synth Effects_
 families (see [here](https://www.midi.org/specifications/item/gm-level-1-sound-set)).
 
-- [lpd-5-full](https://drive.google.com/uc?export=download&id=1tZKMhYazSWapFTUt7H6abHSo-QKH9ATC)
+- [lpd-5-full](https://drive.google.com/uc?id=1tZKMhYazSWapFTUt7H6abHSo-QKH9ATC)
   contains 174,154 five-track pianorolls derived from _lpd-full_.
-- [lpd-5-matched](https://drive.google.com/uc?export=download&id=1EGSHxDr8qYLNVrv3Xn7SB1tqEdm16gBi)
+- [lpd-5-matched](https://drive.google.com/uc?id=1EGSHxDr8qYLNVrv3Xn7SB1tqEdm16gBi)
   contains 115,160 five-track pianorolls derived from _lpd-matched_.
-- [lpd-5-cleansed](https://drive.google.com/uc?export=download&id=1yz0Ma-6cWTl6mhkrLnAVJ7RNzlQRypQ5)
+- [lpd-5-cleansed](https://drive.google.com/uc?id=1yz0Ma-6cWTl6mhkrLnAVJ7RNzlQRypQ5)
   contains 21,425 five-track pianorolls derived from _lpd-cleansed_.
 
 ---
@@ -86,9 +86,9 @@ The seventeen tracks are _Drums_, _Piano_, _Chromatic Percussion_, _Organ_,
 _Guitar_, _Bass_, _Strings_, _Ensemble_, _Brass_, _Reed_, _Pipe_, _Synth Lead_,
 _Synth Pad_, _Synth Effects_, _Ethnic_, _Percussive_ and _Sound Effects_.
 
-- [lpd-17-full](https://drive.google.com/uc?export=download&id=1bJAC2SKhdKbKvpLL1V1l66cCgWX8eQEm)
+- [lpd-17-full](https://drive.google.com/uc?id=1bJAC2SKhdKbKvpLL1V1l66cCgWX8eQEm)
   contains 174,154 seventeen-track pianorolls derived from _lpd-full_.
-- [lpd-17-matched](https://drive.google.com/uc?export=download&id=1jMTzszQGq7fhGOQpfrO7MbPGjVzX-CjB)
+- [lpd-17-matched](https://drive.google.com/uc?id=1jMTzszQGq7fhGOQpfrO7MbPGjVzX-CjB)
   contains 115,160 seventeen-track pianorolls derived from _lpd-matched_.
-- [lpd-17-cleansed](https://drive.google.com/uc?export=download&id=1ycvALTnMNWnXcwXDjS7YeNC6mQtANvMK)
+- [lpd-17-cleansed](https://drive.google.com/uc?id=1ycvALTnMNWnXcwXDjS7YeNC6mQtANvMK)
   contains 21,425 seventeen-track pianorolls derived from _lpd-cleansed_.
