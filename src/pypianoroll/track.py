@@ -1,6 +1,4 @@
-"""Class for single-track piano-rolls with metadata.
 
-"""
 from copy import deepcopy
 from six import string_types
 import numpy as np
